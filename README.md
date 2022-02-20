@@ -1,2 +1,8 @@
 # EnigmaPS
-Enigma I simulator
+Enigma I PowerShell simulator
+
+This is an Enigma I simulator I wrote, after seeing [this](https://www.youtube.com/watch?v=ybkkiGtJmkM) wonderfull animation by Jared Owen. It simulates the most common Enigma type, Wehrmacht Enigma I with 5 possible rotors.
+
+I am not a programmer, so I am sorry if the code is poorly written. Feel free to improve it. I used a PowerShell, one thing already there in Windows. 
+
+Rotors are set through a drop-down menus, plugboard pairs through text box input. Changing settings mid typing is allowed as is theoretically with the real Enigma. Deleting text or characters from the input message works as a kind of "undo" for the settings as well. Program also automatically filters message and plugboard input keys and ignores "impossible" characters.
